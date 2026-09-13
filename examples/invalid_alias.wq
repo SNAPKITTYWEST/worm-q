@@ -1,0 +1,7 @@
+-- This program is REJECTED by the verifier.
+-- Demonstrates that aliased gate operands are caught at compile time.
+
+QBIT Q;
+SWAP Q, Q; -- rejected: operands must be distinct
+MZ Q;
+END;

@@ -1,0 +1,10 @@
+[package]
+name = "worm-q"
+version = "0.1.0"
+edition = "2021"
+description = "WORM-Q: JOVIAL/HAL-S-inspired linear quantum circuit compiler with destructive-read semantics"
+license = "MIT"
+
+[[bin]]
+name = "wormq"
+path = "src/main.rs"

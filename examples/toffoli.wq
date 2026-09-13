@@ -1,0 +1,13 @@
+-- Toffoli gate (CCX) demonstrating 3-wire linear ownership
+-- All three handles consumed and rebound through CCX
+
+QBIT C1;
+QBIT C2;
+QBIT T;
+
+H C1;
+CCX C1, C2, T;
+MZ C1;
+MZ C2;
+MZ T;
+END;

@@ -1,0 +1,12 @@
+-- RZ rotation + phase gates demonstration
+
+QBIT Q;
+QBIT ANC;
+
+H Q;
+RZ 1.5707963, Q;
+S Q;
+CX Q, ANC;
+MZ Q;
+MZ ANC;
+END;

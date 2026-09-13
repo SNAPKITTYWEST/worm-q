@@ -1,0 +1,11 @@
+-- Bell pair preparation and destructive measurement
+-- Demonstrates CX entanglement + linear ownership
+
+QBIT A;
+QBIT B;
+
+H A;
+CX A, B;
+MZ A;
+MZ B;
+END;
